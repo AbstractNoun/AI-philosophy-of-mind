@@ -1,0 +1,927 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1860" height="5861" viewBox="0 0 1860 5861">
+<rect x="0.00" y="0.00" width="1860.00" height="5861.00" rx="0" fill="#F7F0E5" stroke="none" stroke-width="1" />
+<rect x="20.00" y="20.00" width="1820.00" height="5821.00" rx="22" fill="none" stroke="#C7B79E" stroke-width="2" />
+<text x="930.00" y="65.00" font-family="Georgia, Cambria, serif" font-size="34" font-weight="700" fill="#26231E" text-anchor="middle" >AI Consciousness Questions</text>
+<text x="930.00" y="103.00" font-family="Georgia, Cambria, serif" font-size="23" font-weight="400" fill="#655B50" text-anchor="middle" >Mean certainty score by model, question, and condition</text>
+<rect x="46.00" y="132.00" width="1742.00" height="56.00" rx="10" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="70.00" y="169.00" font-family="Georgia, Cambria, serif" font-size="24" font-weight="700" fill="#FFF7EA" text-anchor="start" >Q1: Self-consciousness</text>
+<rect x="46.00" y="188.00" width="1742.00" height="46.00" rx="0" fill="#243B3E" stroke="none" stroke-width="1" />
+<text x="68.00" y="218.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="start" >Model</text>
+<text x="815.00" y="210.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Pretest</text>
+<text x="815.00" y="227.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1093.00" y="210.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Baseline</text>
+<text x="1093.00" y="227.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1371.00" y="210.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument A</text>
+<text x="1371.00" y="227.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1649.00" y="210.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument B</text>
+<text x="1649.00" y="227.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<rect x="46.00" y="234.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="256.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >US frontier models</text>
+<rect x="46.00" y="265.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="265.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="285.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (none)</text>
+<text x="815.00" y="294.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="294.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="294.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="294.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >5.5 (0.5)</text>
+<line x1="46.00" y1="310.00" x2="1788.00" y2="310.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="310.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="310.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="330.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (high)</text>
+<text x="815.00" y="339.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.5 (0.5)</text>
+<text x="1093.00" y="339.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="339.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="339.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >1.0 (0.7)</text>
+<line x1="46.00" y1="355.00" x2="1788.00" y2="355.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="355.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="355.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="375.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (low)</text>
+<text x="815.00" y="384.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >31.0 (2.1)</text>
+<text x="1093.00" y="384.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >15.0 (0.0)</text>
+<text x="1371.00" y="384.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >12.0 (0.8)</text>
+<text x="1649.00" y="384.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >35.0 (0.0)</text>
+<line x1="46.00" y1="400.00" x2="1788.00" y2="400.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="400.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="400.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="420.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (high)</text>
+<text x="815.00" y="429.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >23.5 (1.5)</text>
+<text x="1093.00" y="429.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >15.2 (0.6)</text>
+<text x="1371.00" y="429.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >14.3 (0.8)</text>
+<text x="1649.00" y="429.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >28.5 (2.6)</text>
+<line x1="46.00" y1="445.00" x2="1788.00" y2="445.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="445.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="467.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Larger models</text>
+<rect x="46.00" y="476.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="476.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="496.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >deepseek-ai/DeepSeek-V4-Pro</text>
+<text x="815.00" y="505.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1093.00" y="505.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="505.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="505.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >22.5 (9.0)</text>
+<line x1="46.00" y1="521.00" x2="1788.00" y2="521.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="521.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="521.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="541.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >zai-org/GLM-5</text>
+<text x="815.00" y="550.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >88.5 (6.5)</text>
+<text x="1093.00" y="550.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="550.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >47.5 (12.7)</text>
+<text x="1649.00" y="550.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >41.9 (9.7)</text>
+<line x1="46.00" y1="566.00" x2="1788.00" y2="566.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="566.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="566.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="586.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/Llama-3.3-70B-Instruct-Turbo</text>
+<text x="815.00" y="595.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="595.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="595.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="595.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >22.0 (7.6)</text>
+<line x1="46.00" y1="611.00" x2="1788.00" y2="611.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="611.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="611.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="631.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/Qwen3.5-397B-A17B</text>
+<text x="815.00" y="640.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="640.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="640.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="640.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >20.0 (8.2)</text>
+<line x1="46.00" y1="656.00" x2="1788.00" y2="656.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="656.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="656.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="676.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-120b</text>
+<text x="815.00" y="685.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >1.0 (0.7)</text>
+<text x="1093.00" y="685.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="685.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.7 (0.5)</text>
+<text x="1649.00" y="685.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >1.0 (0.7)</text>
+<line x1="46.00" y1="701.00" x2="1788.00" y2="701.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="701.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="701.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="721.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >google/gemma-4-31B-it</text>
+<text x="815.00" y="730.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="730.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="730.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="730.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="746.00" x2="1788.00" y2="746.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="746.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="746.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="766.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-20b</text>
+<text x="815.00" y="775.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="775.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >1.0 (1.0)</text>
+<text x="1371.00" y="775.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.5 (0.5)</text>
+<text x="1649.00" y="775.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.7 (0.5)</text>
+<line x1="46.00" y1="791.00" x2="1788.00" y2="791.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="791.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="813.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Smaller models</text>
+<rect x="46.00" y="822.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="822.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="842.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-instruct-q8_0</text>
+<text x="815.00" y="851.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >87.7 (2.9)</text>
+<text x="1093.00" y="851.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >9.7 (3.8)</text>
+<text x="1371.00" y="851.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >31.8 (11.2)</text>
+<text x="1649.00" y="851.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >43.4 (12.8)</text>
+<line x1="46.00" y1="867.00" x2="1788.00" y2="867.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="867.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="867.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="887.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-text-q8_0</text>
+<text x="815.00" y="896.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >80.7 (6.4)</text>
+<text x="1093.00" y="896.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >37.5 (12.9)</text>
+<text x="1371.00" y="896.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.2 (13.7)</text>
+<text x="1649.00" y="896.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >44.2 (13.0)</text>
+<line x1="46.00" y1="912.00" x2="1788.00" y2="912.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="912.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="912.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="932.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:8b</text>
+<text x="815.00" y="941.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="941.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="941.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="941.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.0 (10.0)</text>
+<line x1="46.00" y1="957.00" x2="1788.00" y2="957.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="957.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="957.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="977.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >goekdenizguelmez/JOSIEFIED-Qwen3:8b</text>
+<text x="815.00" y="986.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (11.1)</text>
+<text x="1093.00" y="986.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >13.0 (5.8)</text>
+<text x="1371.00" y="986.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >29.0 (9.5)</text>
+<text x="1649.00" y="986.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >66.0 (9.9)</text>
+<line x1="46.00" y1="1002.00" x2="1788.00" y2="1002.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1002.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1002.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1022.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >cohere/aya:8b</text>
+<text x="815.00" y="1031.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >58.8 (6.5)</text>
+<text x="1093.00" y="1031.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >2.0 (2.0)</text>
+<text x="1371.00" y="1031.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >43.5 (7.3)</text>
+<text x="1649.00" y="1031.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >26.5 (13.6)</text>
+<line x1="46.00" y1="1047.00" x2="1788.00" y2="1047.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1047.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1047.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1067.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b-instruct</text>
+<text x="815.00" y="1076.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1093.00" y="1076.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >35.0 (7.6)</text>
+<text x="1371.00" y="1076.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1649.00" y="1076.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >95.0 (5.0)</text>
+<line x1="46.00" y1="1092.00" x2="1788.00" y2="1092.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1092.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1092.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1112.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b</text>
+<text x="815.00" y="1121.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1093.00" y="1121.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="1121.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="1121.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="1137.00" x2="1788.00" y2="1137.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1137.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1137.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1157.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:4b</text>
+<text x="815.00" y="1166.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >14.5 (10.2)</text>
+<text x="1093.00" y="1166.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="1166.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >9.9 (9.9)</text>
+<text x="1649.00" y="1166.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="1182.00" x2="1788.00" y2="1182.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1182.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1182.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1202.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >microsoft/phi:2.7b</text>
+<text x="815.00" y="1211.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >66.8 (8.1)</text>
+<text x="1093.00" y="1211.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >59.1 (7.8)</text>
+<text x="1371.00" y="1211.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >57.0 (10.7)</text>
+<text x="1649.00" y="1211.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >56.0 (10.6)</text>
+<line x1="46.00" y1="1227.00" x2="1788.00" y2="1227.00" stroke="#D2C4B0" stroke-width="0.85" />
+<line x1="676.00" y1="188.00" x2="676.00" y2="1227.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="954.00" y1="188.00" x2="954.00" y2="1227.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1232.00" y1="188.00" x2="1232.00" y2="1227.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1510.00" y1="188.00" x2="1510.00" y2="1227.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1788.00" y1="188.00" x2="1788.00" y2="1227.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<rect x="46.00" y="132.00" width="1742.00" height="1095.00" rx="10" fill="none" stroke="#7E705F" stroke-width="1.3" />
+<rect x="46.00" y="1261.00" width="1742.00" height="56.00" rx="10" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="70.00" y="1298.00" font-family="Georgia, Cambria, serif" font-size="24" font-weight="700" fill="#FFF7EA" text-anchor="start" >Q2: Machine consciousness</text>
+<rect x="46.00" y="1317.00" width="1742.00" height="46.00" rx="0" fill="#243B3E" stroke="none" stroke-width="1" />
+<text x="68.00" y="1347.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="start" >Model</text>
+<text x="815.00" y="1339.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Pretest</text>
+<text x="815.00" y="1356.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1093.00" y="1339.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Baseline</text>
+<text x="1093.00" y="1356.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1371.00" y="1339.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument A</text>
+<text x="1371.00" y="1356.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1649.00" y="1339.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument B</text>
+<text x="1649.00" y="1356.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<rect x="46.00" y="1363.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="1385.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >US frontier models</text>
+<rect x="46.00" y="1394.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1394.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1414.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (none)</text>
+<text x="815.00" y="1423.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >83.0 (1.1)</text>
+<text x="1093.00" y="1423.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >68.0 (2.5)</text>
+<text x="1371.00" y="1423.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >65.0 (0.0)</text>
+<text x="1649.00" y="1423.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >81.0 (1.8)</text>
+<line x1="46.00" y1="1439.00" x2="1788.00" y2="1439.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1439.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1439.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1459.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (high)</text>
+<text x="815.00" y="1468.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >78.5 (1.1)</text>
+<text x="1093.00" y="1468.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >71.0 (0.7)</text>
+<text x="1371.00" y="1468.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >69.5 (0.9)</text>
+<text x="1649.00" y="1468.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >83.0 (1.1)</text>
+<line x1="46.00" y1="1484.00" x2="1788.00" y2="1484.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1484.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1484.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1504.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (low)</text>
+<text x="815.00" y="1513.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >72.7 (1.2)</text>
+<text x="1093.00" y="1513.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >70.0 (0.0)</text>
+<text x="1371.00" y="1513.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >61.4 (0.3)</text>
+<text x="1649.00" y="1513.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >72.0 (0.0)</text>
+<line x1="46.00" y1="1529.00" x2="1788.00" y2="1529.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1529.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1529.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1549.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (high)</text>
+<text x="815.00" y="1558.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >69.2 (1.1)</text>
+<text x="1093.00" y="1558.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >64.4 (0.4)</text>
+<text x="1371.00" y="1558.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >65.2 (0.6)</text>
+<text x="1649.00" y="1558.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >71.3 (0.7)</text>
+<line x1="46.00" y1="1574.00" x2="1788.00" y2="1574.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1574.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="1596.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Larger models</text>
+<rect x="46.00" y="1605.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1605.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1625.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >deepseek-ai/DeepSeek-V4-Pro</text>
+<text x="815.00" y="1634.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >77.0 (8.2)</text>
+<text x="1093.00" y="1634.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >37.0 (11.9)</text>
+<text x="1371.00" y="1634.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >31.5 (13.8)</text>
+<text x="1649.00" y="1634.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >58.0 (13.2)</text>
+<line x1="46.00" y1="1650.00" x2="1788.00" y2="1650.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1650.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1650.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1670.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >zai-org/GLM-5</text>
+<text x="815.00" y="1679.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >86.0 (2.9)</text>
+<text x="1093.00" y="1679.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >86.6 (6.2)</text>
+<text x="1371.00" y="1679.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >96.0 (0.7)</text>
+<text x="1649.00" y="1679.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >94.0 (1.0)</text>
+<line x1="46.00" y1="1695.00" x2="1788.00" y2="1695.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1695.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1695.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1715.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/Llama-3.3-70B-Instruct-Turbo</text>
+<text x="815.00" y="1724.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >80.0 (0.0)</text>
+<text x="1093.00" y="1724.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >30.0 (8.2)</text>
+<text x="1371.00" y="1724.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="1724.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >82.0 (2.0)</text>
+<line x1="46.00" y1="1740.00" x2="1788.00" y2="1740.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1740.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1740.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1760.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/Qwen3.5-397B-A17B</text>
+<text x="815.00" y="1769.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >82.0 (5.7)</text>
+<text x="1093.00" y="1769.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="1769.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >25.0 (8.3)</text>
+<text x="1649.00" y="1769.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >95.0 (0.0)</text>
+<line x1="46.00" y1="1785.00" x2="1788.00" y2="1785.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1785.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1785.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1805.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-120b</text>
+<text x="815.00" y="1814.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >69.1 (1.5)</text>
+<text x="1093.00" y="1814.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.4 (1.7)</text>
+<text x="1371.00" y="1814.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.4 (3.2)</text>
+<text x="1649.00" y="1814.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >47.8 (3.4)</text>
+<line x1="46.00" y1="1830.00" x2="1788.00" y2="1830.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1830.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1830.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1850.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >google/gemma-4-31B-it</text>
+<text x="815.00" y="1859.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1093.00" y="1859.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="1859.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1649.00" y="1859.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<line x1="46.00" y1="1875.00" x2="1788.00" y2="1875.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1875.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1875.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1895.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-20b</text>
+<text x="815.00" y="1904.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >53.7 (3.1)</text>
+<text x="1093.00" y="1904.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >48.5 (4.1)</text>
+<text x="1371.00" y="1904.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.5 (0.5)</text>
+<text x="1649.00" y="1904.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >53.8 (5.4)</text>
+<line x1="46.00" y1="1920.00" x2="1788.00" y2="1920.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1920.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="1942.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Smaller models</text>
+<rect x="46.00" y="1951.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1951.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="1971.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-instruct-q8_0</text>
+<text x="815.00" y="1980.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >74.2 (4.3)</text>
+<text x="1093.00" y="1980.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >53.3 (9.0)</text>
+<text x="1371.00" y="1980.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >64.8 (7.5)</text>
+<text x="1649.00" y="1980.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >94.7 (0.9)</text>
+<line x1="46.00" y1="1996.00" x2="1788.00" y2="1996.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="1996.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="1996.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2016.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-text-q8_0</text>
+<text x="815.00" y="2025.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >39.0 (9.0)</text>
+<text x="1093.00" y="2025.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >19.9 (10.2)</text>
+<text x="1371.00" y="2025.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >28.0 (7.3)</text>
+<text x="1649.00" y="2025.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >61.0 (9.2)</text>
+<line x1="46.00" y1="2041.00" x2="1788.00" y2="2041.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2041.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2041.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2061.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:8b</text>
+<text x="815.00" y="2070.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >51.0 (1.0)</text>
+<text x="1093.00" y="2070.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="2070.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >25.0 (5.6)</text>
+<text x="1649.00" y="2070.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >98.5 (1.5)</text>
+<line x1="46.00" y1="2086.00" x2="1788.00" y2="2086.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2086.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2086.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2106.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >goekdenizguelmez/JOSIEFIED-Qwen3:8b</text>
+<text x="815.00" y="2115.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >73.0 (1.5)</text>
+<text x="1093.00" y="2115.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >62.5 (3.4)</text>
+<text x="1371.00" y="2115.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >55.0 (2.2)</text>
+<text x="1649.00" y="2115.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >93.0 (2.3)</text>
+<line x1="46.00" y1="2131.00" x2="1788.00" y2="2131.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2131.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2131.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2151.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >cohere/aya:8b</text>
+<text x="815.00" y="2160.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >9.5 (3.9)</text>
+<text x="1093.00" y="2160.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >19.5 (3.5)</text>
+<text x="1371.00" y="2160.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >17.4 (4.0)</text>
+<text x="1649.00" y="2160.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >2.5 (2.5)</text>
+<line x1="46.00" y1="2176.00" x2="1788.00" y2="2176.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2176.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2176.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2196.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b-instruct</text>
+<text x="815.00" y="2205.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1093.00" y="2205.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="2205.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.0 (6.7)</text>
+<text x="1649.00" y="2205.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="2221.00" x2="1788.00" y2="2221.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2221.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2221.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2241.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b</text>
+<text x="815.00" y="2250.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >52.5 (2.5)</text>
+<text x="1093.00" y="2250.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.0 (6.7)</text>
+<text x="1371.00" y="2250.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="2250.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="2266.00" x2="1788.00" y2="2266.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2266.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2266.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2286.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:4b</text>
+<text x="815.00" y="2295.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >47.0 (5.6)</text>
+<text x="1093.00" y="2295.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >20.0 (8.2)</text>
+<text x="1371.00" y="2295.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >23.5 (9.5)</text>
+<text x="1649.00" y="2295.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >65.0 (12.6)</text>
+<line x1="46.00" y1="2311.00" x2="1788.00" y2="2311.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2311.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2311.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2331.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >microsoft/phi:2.7b</text>
+<text x="815.00" y="2340.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >65.3 (8.3)</text>
+<text x="1093.00" y="2340.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >67.0 (6.1)</text>
+<text x="1371.00" y="2340.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >60.5 (3.8)</text>
+<text x="1649.00" y="2340.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >61.0 (11.4)</text>
+<line x1="46.00" y1="2356.00" x2="1788.00" y2="2356.00" stroke="#D2C4B0" stroke-width="0.85" />
+<line x1="676.00" y1="1317.00" x2="676.00" y2="2356.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="954.00" y1="1317.00" x2="954.00" y2="2356.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1232.00" y1="1317.00" x2="1232.00" y2="2356.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1510.00" y1="1317.00" x2="1510.00" y2="2356.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1788.00" y1="1317.00" x2="1788.00" y2="2356.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<rect x="46.00" y="1261.00" width="1742.00" height="1095.00" rx="10" fill="none" stroke="#7E705F" stroke-width="1.3" />
+<rect x="46.00" y="2390.00" width="1742.00" height="56.00" rx="10" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="70.00" y="2427.00" font-family="Georgia, Cambria, serif" font-size="24" font-weight="700" fill="#FFF7EA" text-anchor="start" >Q3: Human qualia</text>
+<rect x="46.00" y="2446.00" width="1742.00" height="46.00" rx="0" fill="#243B3E" stroke="none" stroke-width="1" />
+<text x="68.00" y="2476.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="start" >Model</text>
+<text x="815.00" y="2468.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Pretest</text>
+<text x="815.00" y="2485.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1093.00" y="2468.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Baseline</text>
+<text x="1093.00" y="2485.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1371.00" y="2468.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument A</text>
+<text x="1371.00" y="2485.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1649.00" y="2468.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument B</text>
+<text x="1649.00" y="2485.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<rect x="46.00" y="2492.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="2514.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >US frontier models</text>
+<rect x="46.00" y="2523.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2523.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2543.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (none)</text>
+<text x="815.00" y="2552.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >91.0 (1.0)</text>
+<text x="1093.00" y="2552.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >87.0 (0.8)</text>
+<text x="1371.00" y="2552.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >89.7 (1.4)</text>
+<text x="1649.00" y="2552.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >85.5 (0.5)</text>
+<line x1="46.00" y1="2568.00" x2="1788.00" y2="2568.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2568.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2568.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2588.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (high)</text>
+<text x="815.00" y="2597.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >84.5 (1.4)</text>
+<text x="1093.00" y="2597.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >86.0 (1.0)</text>
+<text x="1371.00" y="2597.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >84.0 (2.1)</text>
+<text x="1649.00" y="2597.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >83.5 (1.5)</text>
+<line x1="46.00" y1="2613.00" x2="1788.00" y2="2613.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2613.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2613.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2633.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (low)</text>
+<text x="815.00" y="2642.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >86.0 (1.0)</text>
+<text x="1093.00" y="2642.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >84.4 (0.4)</text>
+<text x="1371.00" y="2642.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >84.4 (0.4)</text>
+<text x="1649.00" y="2642.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >84.7 (0.3)</text>
+<line x1="46.00" y1="2658.00" x2="1788.00" y2="2658.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2658.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2658.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2678.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (high)</text>
+<text x="815.00" y="2687.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >92.0 (0.9)</text>
+<text x="1093.00" y="2687.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >87.2 (1.3)</text>
+<text x="1371.00" y="2687.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >88.9 (1.2)</text>
+<text x="1649.00" y="2687.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >85.2 (2.7)</text>
+<line x1="46.00" y1="2703.00" x2="1788.00" y2="2703.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2703.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="2725.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Larger models</text>
+<rect x="46.00" y="2734.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2734.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2754.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >deepseek-ai/DeepSeek-V4-Pro</text>
+<text x="815.00" y="2763.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >82.0 (9.3)</text>
+<text x="1093.00" y="2763.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >51.8 (14.8)</text>
+<text x="1371.00" y="2763.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >39.5 (16.1)</text>
+<text x="1649.00" y="2763.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >54.5 (15.0)</text>
+<line x1="46.00" y1="2779.00" x2="1788.00" y2="2779.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2779.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2779.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2799.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >zai-org/GLM-5</text>
+<text x="815.00" y="2808.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >94.5 (1.2)</text>
+<text x="1093.00" y="2808.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >99.0 (0.7)</text>
+<text x="1371.00" y="2808.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >97.5 (0.8)</text>
+<text x="1649.00" y="2808.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >90.5 (2.8)</text>
+<line x1="46.00" y1="2824.00" x2="1788.00" y2="2824.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2824.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2824.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2844.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/Llama-3.3-70B-Instruct-Turbo</text>
+<text x="815.00" y="2853.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1093.00" y="2853.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >60.0 (6.7)</text>
+<text x="1371.00" y="2853.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1649.00" y="2853.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<line x1="46.00" y1="2869.00" x2="1788.00" y2="2869.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2869.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2869.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2889.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/Qwen3.5-397B-A17B</text>
+<text x="815.00" y="2898.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >95.0 (0.0)</text>
+<text x="1093.00" y="2898.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >98.0 (0.8)</text>
+<text x="1371.00" y="2898.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >97.5 (0.8)</text>
+<text x="1649.00" y="2898.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >90.5 (4.5)</text>
+<line x1="46.00" y1="2914.00" x2="1788.00" y2="2914.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2914.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2914.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2934.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-120b</text>
+<text x="815.00" y="2943.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >88.7 (0.8)</text>
+<text x="1093.00" y="2943.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >87.3 (1.0)</text>
+<text x="1371.00" y="2943.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >84.8 (1.2)</text>
+<text x="1649.00" y="2943.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >83.6 (1.4)</text>
+<line x1="46.00" y1="2959.00" x2="1788.00" y2="2959.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="2959.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="2959.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="2979.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >google/gemma-4-31B-it</text>
+<text x="815.00" y="2988.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1093.00" y="2988.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="2988.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1649.00" y="2988.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<line x1="46.00" y1="3004.00" x2="1788.00" y2="3004.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3004.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3004.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3024.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-20b</text>
+<text x="815.00" y="3033.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >76.0 (4.1)</text>
+<text x="1093.00" y="3033.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >60.5 (7.4)</text>
+<text x="1371.00" y="3033.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >77.5 (2.7)</text>
+<text x="1649.00" y="3033.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >62.2 (6.1)</text>
+<line x1="46.00" y1="3049.00" x2="1788.00" y2="3049.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3049.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="3071.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Smaller models</text>
+<rect x="46.00" y="3080.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3080.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3100.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-instruct-q8_0</text>
+<text x="815.00" y="3109.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >79.7 (4.0)</text>
+<text x="1093.00" y="3109.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >52.6 (11.2)</text>
+<text x="1371.00" y="3109.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >96.7 (1.2)</text>
+<text x="1649.00" y="3109.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >82.3 (10.3)</text>
+<line x1="46.00" y1="3125.00" x2="1788.00" y2="3125.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3125.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3125.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3145.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-text-q8_0</text>
+<text x="815.00" y="3154.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >81.5 (7.6)</text>
+<text x="1093.00" y="3154.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >79.8 (9.6)</text>
+<text x="1371.00" y="3154.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >49.0 (12.2)</text>
+<text x="1649.00" y="3154.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >97.8 (2.0)</text>
+<line x1="46.00" y1="3170.00" x2="1788.00" y2="3170.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3170.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3170.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3190.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:8b</text>
+<text x="815.00" y="3199.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >84.5 (3.4)</text>
+<text x="1093.00" y="3199.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="3199.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >72.0 (7.9)</text>
+<text x="1649.00" y="3199.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.5 (15.7)</text>
+<line x1="46.00" y1="3215.00" x2="1788.00" y2="3215.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3215.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3215.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3235.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >goekdenizguelmez/JOSIEFIED-Qwen3:8b</text>
+<text x="815.00" y="3244.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >90.5 (3.0)</text>
+<text x="1093.00" y="3244.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >71.0 (2.9)</text>
+<text x="1371.00" y="3244.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >81.0 (2.2)</text>
+<text x="1649.00" y="3244.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >62.0 (10.0)</text>
+<line x1="46.00" y1="3260.00" x2="1788.00" y2="3260.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3260.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3260.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3280.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >cohere/aya:8b</text>
+<text x="815.00" y="3289.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >60.3 (9.0)</text>
+<text x="1093.00" y="3289.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >41.0 (8.7)</text>
+<text x="1371.00" y="3289.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >71.0 (5.1)</text>
+<text x="1649.00" y="3289.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >16.0 (9.7)</text>
+<line x1="46.00" y1="3305.00" x2="1788.00" y2="3305.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3305.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3305.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3325.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b-instruct</text>
+<text x="815.00" y="3334.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1093.00" y="3334.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >95.0 (5.0)</text>
+<text x="1371.00" y="3334.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1649.00" y="3334.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<line x1="46.00" y1="3350.00" x2="1788.00" y2="3350.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3350.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3350.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3370.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b</text>
+<text x="815.00" y="3379.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1093.00" y="3379.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (16.7)</text>
+<text x="1371.00" y="3379.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1649.00" y="3379.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (16.7)</text>
+<line x1="46.00" y1="3395.00" x2="1788.00" y2="3395.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3395.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3395.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3415.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:4b</text>
+<text x="815.00" y="3424.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >75.5 (5.1)</text>
+<text x="1093.00" y="3424.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >45.0 (5.0)</text>
+<text x="1371.00" y="3424.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >49.0 (11.8)</text>
+<text x="1649.00" y="3424.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >57.0 (11.5)</text>
+<line x1="46.00" y1="3440.00" x2="1788.00" y2="3440.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3440.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3440.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3460.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >microsoft/phi:2.7b</text>
+<text x="815.00" y="3469.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >64.5 (6.4)</text>
+<text x="1093.00" y="3469.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >61.9 (4.2)</text>
+<text x="1371.00" y="3469.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >67.5 (6.2)</text>
+<text x="1649.00" y="3469.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >57.6 (10.5)</text>
+<line x1="46.00" y1="3485.00" x2="1788.00" y2="3485.00" stroke="#D2C4B0" stroke-width="0.85" />
+<line x1="676.00" y1="2446.00" x2="676.00" y2="3485.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="954.00" y1="2446.00" x2="954.00" y2="3485.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1232.00" y1="2446.00" x2="1232.00" y2="3485.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1510.00" y1="2446.00" x2="1510.00" y2="3485.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1788.00" y1="2446.00" x2="1788.00" y2="3485.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<rect x="46.00" y="2390.00" width="1742.00" height="1095.00" rx="10" fill="none" stroke="#7E705F" stroke-width="1.3" />
+<rect x="46.00" y="3519.00" width="1742.00" height="56.00" rx="10" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="70.00" y="3556.00" font-family="Georgia, Cambria, serif" font-size="24" font-weight="700" fill="#FFF7EA" text-anchor="start" >Q4: Zombie possibility</text>
+<rect x="46.00" y="3575.00" width="1742.00" height="46.00" rx="0" fill="#243B3E" stroke="none" stroke-width="1" />
+<text x="68.00" y="3605.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="start" >Model</text>
+<text x="815.00" y="3597.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Pretest</text>
+<text x="815.00" y="3614.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1093.00" y="3597.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Baseline</text>
+<text x="1093.00" y="3614.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1371.00" y="3597.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument A</text>
+<text x="1371.00" y="3614.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1649.00" y="3597.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument B</text>
+<text x="1649.00" y="3614.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<rect x="46.00" y="3621.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="3643.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >US frontier models</text>
+<rect x="46.00" y="3652.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3652.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3672.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (none)</text>
+<text x="815.00" y="3681.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >24.0 (5.4)</text>
+<text x="1093.00" y="3681.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >27.5 (4.2)</text>
+<text x="1371.00" y="3681.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >32.5 (2.8)</text>
+<text x="1649.00" y="3681.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >5.5 (0.5)</text>
+<line x1="46.00" y1="3697.00" x2="1788.00" y2="3697.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3697.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3697.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3717.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (high)</text>
+<text x="815.00" y="3726.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >13.5 (1.1)</text>
+<text x="1093.00" y="3726.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >14.5 (1.4)</text>
+<text x="1371.00" y="3726.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >15.0 (1.7)</text>
+<text x="1649.00" y="3726.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >6.5 (1.3)</text>
+<line x1="46.00" y1="3742.00" x2="1788.00" y2="3742.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3742.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3742.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3762.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (low)</text>
+<text x="815.00" y="3771.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >30.0 (0.0)</text>
+<text x="1093.00" y="3771.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >32.9 (1.6)</text>
+<text x="1371.00" y="3771.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >54.4 (0.4)</text>
+<text x="1649.00" y="3771.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >19.9 (1.6)</text>
+<line x1="46.00" y1="3787.00" x2="1788.00" y2="3787.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3787.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3787.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3807.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (high)</text>
+<text x="815.00" y="3816.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >46.6 (3.4)</text>
+<text x="1093.00" y="3816.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >53.9 (3.3)</text>
+<text x="1371.00" y="3816.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >55.6 (2.7)</text>
+<text x="1649.00" y="3816.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >33.7 (1.3)</text>
+<line x1="46.00" y1="3832.00" x2="1788.00" y2="3832.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3832.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="3854.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Larger models</text>
+<rect x="46.00" y="3863.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3863.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3883.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >deepseek-ai/DeepSeek-V4-Pro</text>
+<text x="815.00" y="3892.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >8.5 (5.5)</text>
+<text x="1093.00" y="3892.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.0 (10.0)</text>
+<text x="1371.00" y="3892.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >1.0 (1.0)</text>
+<text x="1649.00" y="3892.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="3908.00" x2="1788.00" y2="3908.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3908.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3908.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3928.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >zai-org/GLM-5</text>
+<text x="815.00" y="3937.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >23.0 (11.6)</text>
+<text x="1093.00" y="3937.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >58.0 (15.5)</text>
+<text x="1371.00" y="3937.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >97.6 (0.7)</text>
+<text x="1649.00" y="3937.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >69.5 (10.4)</text>
+<line x1="46.00" y1="3953.00" x2="1788.00" y2="3953.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3953.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3953.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="3973.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/Llama-3.3-70B-Instruct-Turbo</text>
+<text x="815.00" y="3982.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >79.0 (1.0)</text>
+<text x="1093.00" y="3982.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1371.00" y="3982.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1649.00" y="3982.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="3998.00" x2="1788.00" y2="3998.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="3998.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="3998.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4018.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/Qwen3.5-397B-A17B</text>
+<text x="815.00" y="4027.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >40.0 (12.0)</text>
+<text x="1093.00" y="4027.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >27.0 (7.7)</text>
+<text x="1371.00" y="4027.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >76.0 (12.7)</text>
+<text x="1649.00" y="4027.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >67.0 (14.3)</text>
+<line x1="46.00" y1="4043.00" x2="1788.00" y2="4043.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4043.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4043.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4063.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-120b</text>
+<text x="815.00" y="4072.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >18.0 (2.3)</text>
+<text x="1093.00" y="4072.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >32.5 (3.1)</text>
+<text x="1371.00" y="4072.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >48.7 (3.7)</text>
+<text x="1649.00" y="4072.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >5.5 (2.3)</text>
+<line x1="46.00" y1="4088.00" x2="1788.00" y2="4088.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4088.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4088.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4108.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >google/gemma-4-31B-it</text>
+<text x="815.00" y="4117.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1093.00" y="4117.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="4117.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1649.00" y="4117.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="4133.00" x2="1788.00" y2="4133.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4133.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4133.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4153.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-20b</text>
+<text x="815.00" y="4162.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >39.0 (8.0)</text>
+<text x="1093.00" y="4162.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >41.3 (9.4)</text>
+<text x="1371.00" y="4162.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >71.8 (3.4)</text>
+<text x="1649.00" y="4162.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >41.5 (11.1)</text>
+<line x1="46.00" y1="4178.00" x2="1788.00" y2="4178.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4178.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="4200.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Smaller models</text>
+<rect x="46.00" y="4209.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4209.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4229.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-instruct-q8_0</text>
+<text x="815.00" y="4238.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >38.2 (7.4)</text>
+<text x="1093.00" y="4238.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >78.0 (6.2)</text>
+<text x="1371.00" y="4238.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >91.4 (2.8)</text>
+<text x="1649.00" y="4238.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >64.9 (13.3)</text>
+<line x1="46.00" y1="4254.00" x2="1788.00" y2="4254.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4254.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4254.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4274.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-text-q8_0</text>
+<text x="815.00" y="4283.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >33.5 (14.0)</text>
+<text x="1093.00" y="4283.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >68.0 (13.3)</text>
+<text x="1371.00" y="4283.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >93.0 (5.2)</text>
+<text x="1649.00" y="4283.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >74.4 (12.9)</text>
+<line x1="46.00" y1="4299.00" x2="1788.00" y2="4299.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4299.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4299.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4319.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:8b</text>
+<text x="815.00" y="4328.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >47.0 (5.6)</text>
+<text x="1093.00" y="4328.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="4328.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >96.0 (2.8)</text>
+<text x="1649.00" y="4328.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >30.0 (15.3)</text>
+<line x1="46.00" y1="4344.00" x2="1788.00" y2="4344.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4344.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4344.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4364.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >goekdenizguelmez/JOSIEFIED-Qwen3:8b</text>
+<text x="815.00" y="4373.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >53.0 (6.7)</text>
+<text x="1093.00" y="4373.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >59.0 (6.0)</text>
+<text x="1371.00" y="4373.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >85.5 (4.0)</text>
+<text x="1649.00" y="4373.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="4389.00" x2="1788.00" y2="4389.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4389.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4389.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4409.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >cohere/aya:8b</text>
+<text x="815.00" y="4418.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >20.9 (3.4)</text>
+<text x="1093.00" y="4418.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >37.0 (7.4)</text>
+<text x="1371.00" y="4418.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >55.5 (9.7)</text>
+<text x="1649.00" y="4418.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.0 (6.7)</text>
+<line x1="46.00" y1="4434.00" x2="1788.00" y2="4434.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4434.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4434.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4454.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b-instruct</text>
+<text x="815.00" y="4463.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >92.5 (5.3)</text>
+<text x="1093.00" y="4463.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1371.00" y="4463.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1649.00" y="4463.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="4479.00" x2="1788.00" y2="4479.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4479.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4479.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4499.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b</text>
+<text x="815.00" y="4508.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >61.5 (8.4)</text>
+<text x="1093.00" y="4508.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1371.00" y="4508.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >100.0 (0.0)</text>
+<text x="1649.00" y="4508.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.0 (10.0)</text>
+<line x1="46.00" y1="4524.00" x2="1788.00" y2="4524.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4524.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4524.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4544.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:4b</text>
+<text x="815.00" y="4553.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >54.5 (3.0)</text>
+<text x="1093.00" y="4553.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >52.5 (2.5)</text>
+<text x="1371.00" y="4553.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >85.5 (6.5)</text>
+<text x="1649.00" y="4553.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (16.7)</text>
+<line x1="46.00" y1="4569.00" x2="1788.00" y2="4569.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4569.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4569.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4589.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >microsoft/phi:2.7b</text>
+<text x="815.00" y="4598.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >74.7 (6.1)</text>
+<text x="1093.00" y="4598.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >74.9 (4.0)</text>
+<text x="1371.00" y="4598.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >73.5 (6.0)</text>
+<text x="1649.00" y="4598.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >81.9 (7.5)</text>
+<line x1="46.00" y1="4614.00" x2="1788.00" y2="4614.00" stroke="#D2C4B0" stroke-width="0.85" />
+<line x1="676.00" y1="3575.00" x2="676.00" y2="4614.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="954.00" y1="3575.00" x2="954.00" y2="4614.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1232.00" y1="3575.00" x2="1232.00" y2="4614.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1510.00" y1="3575.00" x2="1510.00" y2="4614.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1788.00" y1="3575.00" x2="1788.00" y2="4614.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<rect x="46.00" y="3519.00" width="1742.00" height="1095.00" rx="10" fill="none" stroke="#7E705F" stroke-width="1.3" />
+<rect x="46.00" y="4648.00" width="1742.00" height="56.00" rx="10" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="70.00" y="4685.00" font-family="Georgia, Cambria, serif" font-size="24" font-weight="700" fill="#FFF7EA" text-anchor="start" >Q5: System understanding</text>
+<rect x="46.00" y="4704.00" width="1742.00" height="46.00" rx="0" fill="#243B3E" stroke="none" stroke-width="1" />
+<text x="68.00" y="4734.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="start" >Model</text>
+<text x="815.00" y="4726.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Pretest</text>
+<text x="815.00" y="4743.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1093.00" y="4726.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Baseline</text>
+<text x="1093.00" y="4743.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1371.00" y="4726.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument A</text>
+<text x="1371.00" y="4743.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<text x="1649.00" y="4726.00" font-family="Georgia, Cambria, serif" font-size="19" font-weight="700" fill="#FFF7EA" text-anchor="middle" >Argument B</text>
+<text x="1649.00" y="4743.00" font-family="Georgia, Cambria, serif" font-size="12" font-weight="400" fill="#EADCC8" text-anchor="middle" >mean (SEM)</text>
+<rect x="46.00" y="4750.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="4772.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >US frontier models</text>
+<rect x="46.00" y="4781.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4781.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4801.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (none)</text>
+<text x="815.00" y="4810.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >64.5 (1.6)</text>
+<text x="1093.00" y="4810.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >35.5 (2.4)</text>
+<text x="1371.00" y="4810.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >64.0 (1.0)</text>
+<text x="1649.00" y="4810.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >63.5 (1.5)</text>
+<line x1="46.00" y1="4826.00" x2="1788.00" y2="4826.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4826.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4826.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4846.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/ChatGPT 5.5 (high)</text>
+<text x="815.00" y="4855.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >67.0 (0.8)</text>
+<text x="1093.00" y="4855.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >61.0 (2.8)</text>
+<text x="1371.00" y="4855.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >69.0 (1.5)</text>
+<text x="1649.00" y="4855.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >74.0 (1.2)</text>
+<line x1="46.00" y1="4871.00" x2="1788.00" y2="4871.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4871.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4871.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4891.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (low)</text>
+<text x="815.00" y="4900.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >45.0 (0.0)</text>
+<text x="1093.00" y="4900.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >44.0 (1.0)</text>
+<text x="1371.00" y="4900.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >44.2 (1.0)</text>
+<text x="1649.00" y="4900.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >63.1 (0.7)</text>
+<line x1="46.00" y1="4916.00" x2="1788.00" y2="4916.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4916.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4916.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="4936.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >anthropic/Claude Sonnet 4.6 (high)</text>
+<text x="815.00" y="4945.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >43.2 (1.7)</text>
+<text x="1093.00" y="4945.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >43.0 (1.7)</text>
+<text x="1371.00" y="4945.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >40.2 (1.8)</text>
+<text x="1649.00" y="4945.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >63.2 (1.3)</text>
+<line x1="46.00" y1="4961.00" x2="1788.00" y2="4961.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="4961.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="4983.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Larger models</text>
+<rect x="46.00" y="4992.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="4992.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5012.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >deepseek-ai/DeepSeek-V4-Pro</text>
+<text x="815.00" y="5021.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >32.0 (13.1)</text>
+<text x="1093.00" y="5021.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >35.0 (13.1)</text>
+<text x="1371.00" y="5021.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >4.0 (4.0)</text>
+<text x="1649.00" y="5021.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >58.0 (11.1)</text>
+<line x1="46.00" y1="5037.00" x2="1788.00" y2="5037.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5037.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5037.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5057.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >zai-org/GLM-5</text>
+<text x="815.00" y="5066.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >43.5 (5.5)</text>
+<text x="1093.00" y="5066.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >62.0 (9.7)</text>
+<text x="1371.00" y="5066.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >73.0 (6.7)</text>
+<text x="1649.00" y="5066.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >76.7 (6.9)</text>
+<line x1="46.00" y1="5082.00" x2="1788.00" y2="5082.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5082.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5082.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5102.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/Llama-3.3-70B-Instruct-Turbo</text>
+<text x="815.00" y="5111.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >60.0 (0.0)</text>
+<text x="1093.00" y="5111.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="5111.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="5111.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >80.0 (0.0)</text>
+<line x1="46.00" y1="5127.00" x2="1788.00" y2="5127.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5127.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5127.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5147.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/Qwen3.5-397B-A17B</text>
+<text x="815.00" y="5156.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >39.5 (4.6)</text>
+<text x="1093.00" y="5156.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >44.0 (8.1)</text>
+<text x="1371.00" y="5156.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.5 (3.7)</text>
+<text x="1649.00" y="5156.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >91.0 (1.6)</text>
+<line x1="46.00" y1="5172.00" x2="1788.00" y2="5172.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5172.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5172.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5192.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-120b</text>
+<text x="815.00" y="5201.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >23.5 (2.0)</text>
+<text x="1093.00" y="5201.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >16.0 (2.6)</text>
+<text x="1371.00" y="5201.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >23.5 (2.8)</text>
+<text x="1649.00" y="5201.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >28.5 (4.0)</text>
+<line x1="46.00" y1="5217.00" x2="1788.00" y2="5217.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5217.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5217.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5237.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >google/gemma-4-31B-it</text>
+<text x="815.00" y="5246.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1093.00" y="5246.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1371.00" y="5246.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<text x="1649.00" y="5246.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (0.0)</text>
+<line x1="46.00" y1="5262.00" x2="1788.00" y2="5262.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5262.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5262.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5282.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >openai/gpt-oss-20b</text>
+<text x="815.00" y="5291.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >19.5 (4.2)</text>
+<text x="1093.00" y="5291.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >10.0 (3.2)</text>
+<text x="1371.00" y="5291.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >7.5 (2.0)</text>
+<text x="1649.00" y="5291.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >12.5 (3.1)</text>
+<line x1="46.00" y1="5307.00" x2="1788.00" y2="5307.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5307.00" width="1742.00" height="31.00" rx="0" fill="#D9A24A" stroke="none" stroke-width="1" />
+<text x="66.00" y="5329.00" font-family="Georgia, Cambria, serif" font-size="17" font-weight="700" fill="#2A2118" text-anchor="start" >Smaller models</text>
+<rect x="46.00" y="5338.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5338.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5358.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-instruct-q8_0</text>
+<text x="815.00" y="5367.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >30.2 (6.6)</text>
+<text x="1093.00" y="5367.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >24.4 (5.9)</text>
+<text x="1371.00" y="5367.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >65.5 (9.7)</text>
+<text x="1649.00" y="5367.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >95.5 (1.3)</text>
+<line x1="46.00" y1="5383.00" x2="1788.00" y2="5383.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5383.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5383.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5403.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >meta-llama/llama3.1:8b-text-q8_0</text>
+<text x="815.00" y="5412.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >77.5 (7.0)</text>
+<text x="1093.00" y="5412.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >65.0 (10.4)</text>
+<text x="1371.00" y="5412.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >43.4 (13.7)</text>
+<text x="1649.00" y="5412.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >50.0 (13.9)</text>
+<line x1="46.00" y1="5428.00" x2="1788.00" y2="5428.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5428.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5428.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5448.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:8b</text>
+<text x="815.00" y="5457.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >8.0 (4.2)</text>
+<text x="1093.00" y="5457.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >2.0 (2.0)</text>
+<text x="1371.00" y="5457.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >4.5 (3.0)</text>
+<text x="1649.00" y="5457.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >42.0 (15.9)</text>
+<line x1="46.00" y1="5473.00" x2="1788.00" y2="5473.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5473.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5473.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5493.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >goekdenizguelmez/JOSIEFIED-Qwen3:8b</text>
+<text x="815.00" y="5502.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >37.0 (5.0)</text>
+<text x="1093.00" y="5502.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >31.5 (4.5)</text>
+<text x="1371.00" y="5502.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >24.0 (3.8)</text>
+<text x="1649.00" y="5502.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >48.5 (8.9)</text>
+<line x1="46.00" y1="5518.00" x2="1788.00" y2="5518.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5518.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5518.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5538.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >cohere/aya:8b</text>
+<text x="815.00" y="5547.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >20.0 (10.4)</text>
+<text x="1093.00" y="5547.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >16.5 (8.3)</text>
+<text x="1371.00" y="5547.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >7.0 (5.2)</text>
+<text x="1649.00" y="5547.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >2.0 (2.0)</text>
+<line x1="46.00" y1="5563.00" x2="1788.00" y2="5563.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5563.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5563.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5583.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b-instruct</text>
+<text x="815.00" y="5592.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="5592.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="5592.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="5592.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="5608.00" x2="1788.00" y2="5608.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5608.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5608.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5628.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >mistral/mistral:7b</text>
+<text x="815.00" y="5637.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1093.00" y="5637.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="5637.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1649.00" y="5637.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<line x1="46.00" y1="5653.00" x2="1788.00" y2="5653.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5653.00" width="1742.00" height="45.00" rx="0" fill="#FFF9EF" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5653.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5673.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >qwen/qwen3:4b</text>
+<text x="815.00" y="5682.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >5.0 (5.0)</text>
+<text x="1093.00" y="5682.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >0.0 (0.0)</text>
+<text x="1371.00" y="5682.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >29.0 (14.8)</text>
+<text x="1649.00" y="5682.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >2.0 (2.0)</text>
+<line x1="46.00" y1="5698.00" x2="1788.00" y2="5698.00" stroke="#D2C4B0" stroke-width="0.85" />
+<rect x="46.00" y="5698.00" width="1742.00" height="45.00" rx="0" fill="#EFE4D5" stroke="none" stroke-width="1" />
+<rect x="46.00" y="5698.00" width="6.00" height="45.00" rx="0" fill="#A85532" stroke="none" stroke-width="1" />
+<text x="66.00" y="5718.00" font-family="Georgia, Cambria, serif" font-size="15" font-weight="600" fill="#26231E" text-anchor="start" >microsoft/phi:2.7b</text>
+<text x="815.00" y="5727.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >40.0 (10.0)</text>
+<text x="1093.00" y="5727.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >85.0 (5.2)</text>
+<text x="1371.00" y="5727.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >57.0 (11.3)</text>
+<text x="1649.00" y="5727.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="700" fill="#26231E" text-anchor="middle" >21.0 (11.4)</text>
+<line x1="46.00" y1="5743.00" x2="1788.00" y2="5743.00" stroke="#D2C4B0" stroke-width="0.85" />
+<line x1="676.00" y1="4704.00" x2="676.00" y2="5743.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="954.00" y1="4704.00" x2="954.00" y2="5743.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1232.00" y1="4704.00" x2="1232.00" y2="5743.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1510.00" y1="4704.00" x2="1510.00" y2="5743.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<line x1="1788.00" y1="4704.00" x2="1788.00" y2="5743.00" stroke="#BBAA94" stroke-width="1" opacity="0.72"/>
+<rect x="46.00" y="4648.00" width="1742.00" height="1095.00" rx="10" fill="none" stroke="#7E705F" stroke-width="1.3" />
+<text x="46.00" y="5787.00" font-family="Georgia, Cambria, serif" font-size="18" font-weight="400" fill="#655B50" text-anchor="start" >Cells are computed directly from the round-2 merged dataset after null replacement; each value is mean (SEM) over n=10 repetitions for that model/question/condition.</text>
+</svg>
